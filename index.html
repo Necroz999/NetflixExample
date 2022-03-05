@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
+    
+</head>
+<body>
+    <!-- Barra navegación -->
+    <!-- Meter buscador y menu en header-->
+    <header>
+        <nav>
+            <!-- Logo -->
+            <img class="logo" src="imagenes/logo.png" alt="Logo netflix">
+            <!-- Menu superior -->
+            <ul>
+                <li>Inicio</li>
+                <li>Series</li>
+                <li>Peliculas</li>
+                <li>Novedades Populares</li>
+                <li>Mi lista</li>
+            </ul>
+            <!-- Busqueda -->
+            <section class="busqueda">
+                <input class="Buscar" type="text" placeholder="Busca por titulos, personas, generos...">
+                <span><img src="imagenes/lupa2.png" alt=""></span>
+            </section>
+            <!-- Niños -->
+            
+            <!-- Notificaciones -->
+            <span><img class="noti" src="imagenes/notificacion.png" alt=""></span>
+            <!-- Perfil -->
+            <img class="imgredonda" src="https://ih1.redbubble.net/image.618393699.1999/flat,1000x1000,075,f.u2.jpg" alt="">
+        </nav>
+    </header>
+
+
+    <main>
+    <div class="novedad">
+		<video class="thevideo" loop preload="none">
+			<source src="VENOM LET THERE BE CARNAGE - Official Trailer 2 (HD).mp4" type="video/mp4">	
+		</video>
+        <div class="info">
+            <section class="title">
+                
+            </section> 
+            <section class="buttons">
+                <button class="play"><img class="tocar" src="imagenes/tocar.png" alt=""> Reproducir</button>
+                <button class="play2" ><img src="imagenes/informacion.png" alt="" class="masinfo"> Más información</button>
+            </section>
+        </div>
+		
+    </div>
+    
+    <div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Populares en Netflix</h3>
+				<div class="indicadores"></div>
+			</div>
+
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/bob.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/breaking.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/calamar.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/dn.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/ns.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/opm.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/r2.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/rp.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/sre.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/bob.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/breaking.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/calamar.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/carnage.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/dn.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/ns.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/opm.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/r2.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/rp.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/sre.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/bob.jpeg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="imagenes/carnage.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+  </main>
+  </div>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+</body>
+</html>
